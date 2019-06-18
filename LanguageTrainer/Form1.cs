@@ -102,6 +102,9 @@ namespace LanguageTrainer
                     if (questData.FirstLanguageList.Count != 0)
                     {
                         questWordLabel.Text = questData.FirstLanguageList.Peek();
+
+                        questWordLabel.Location = new Point(661 / 2 - questWordLabel.Size.Width / 2, 128);
+
                         countOfWordLeftLabel.Text = questData.AccuracyCounter.Length - questData.FirstLanguageList.Count+1 + " / " + questData.AccuracyCounter.Length;
                     }
                     else
@@ -135,6 +138,9 @@ namespace LanguageTrainer
                     if (questData.FirstLanguageList.Count != 0)
                     {
                         questWordLabel.Text = questData.FirstLanguageList.Peek();
+
+                        questWordLabel.Location = new Point(661 / 2 - questWordLabel.Size.Width / 2, 128);
+
                         countOfWordLeftLabel.Text = questData.AccuracyCounter.Length - questData.FirstLanguageList.Count+1 + " / " + questData.AccuracyCounter.Length;
                     }
                     else
@@ -204,11 +210,14 @@ namespace LanguageTrainer
                 wordsOfSelectedListBox.Items.Clear();
             }
         }
+
         private void StartButton_Click(object sender, EventArgs e)
         {
             if (listsBox.SelectedIndex != -1)
             {
                 questWordLabel.Text = programData.wordLists[listsBox.SelectedIndex].FirstLanguageList[0];
+
+                questWordLabel.Location = new Point(661 / 2 - questWordLabel.Size.Width / 2, 128);
 
                 countOfWordLeftLabel.Text = "1 / " + programData.wordLists[listsBox.SelectedIndex].FirstLanguageList.Count;
 

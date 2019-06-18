@@ -68,6 +68,12 @@
             this.backToMenuButton = new System.Windows.Forms.Button();
             this.accuracyLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.mainMenuTabPage.SuspendLayout();
             this.createListTabPage.SuspendLayout();
@@ -83,10 +89,10 @@
             this.tabControl.Controls.Add(this.changeListTabPage);
             this.tabControl.Controls.Add(this.workingProcessTabPage);
             this.tabControl.Controls.Add(this.collectionOfInformationTabPage);
-            this.tabControl.Location = new System.Drawing.Point(0, 0);
+            this.tabControl.Location = new System.Drawing.Point(0, -25);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(669, 480);
+            this.tabControl.Size = new System.Drawing.Size(669, 505);
             this.tabControl.TabIndex = 0;
             // 
             // mainMenuTabPage
@@ -108,74 +114,105 @@
             // 
             // exitProgramButton
             // 
-            this.exitProgramButton.Location = new System.Drawing.Point(298, 248);
+            this.exitProgramButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.exitProgramButton.FlatAppearance.BorderSize = 0;
+            this.exitProgramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitProgramButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.exitProgramButton.Location = new System.Drawing.Point(272, 303);
             this.exitProgramButton.Name = "exitProgramButton";
-            this.exitProgramButton.Size = new System.Drawing.Size(75, 23);
+            this.exitProgramButton.Size = new System.Drawing.Size(116, 35);
             this.exitProgramButton.TabIndex = 6;
             this.exitProgramButton.Text = "Выйти";
-            this.exitProgramButton.UseVisualStyleBackColor = true;
+            this.exitProgramButton.UseVisualStyleBackColor = false;
             this.exitProgramButton.Click += new System.EventHandler(this.ExitProgramButton_Click);
             // 
             // changeListButton
             // 
-            this.changeListButton.Location = new System.Drawing.Point(298, 190);
+            this.changeListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.changeListButton.FlatAppearance.BorderSize = 0;
+            this.changeListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changeListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.changeListButton.Location = new System.Drawing.Point(272, 221);
             this.changeListButton.Name = "changeListButton";
-            this.changeListButton.Size = new System.Drawing.Size(75, 23);
+            this.changeListButton.Size = new System.Drawing.Size(116, 35);
             this.changeListButton.TabIndex = 5;
             this.changeListButton.Text = "Изменить";
-            this.changeListButton.UseVisualStyleBackColor = true;
+            this.changeListButton.UseVisualStyleBackColor = false;
             this.changeListButton.Click += new System.EventHandler(this.ChangeListButton_Click);
             // 
             // deleteListButton
             // 
-            this.deleteListButton.Location = new System.Drawing.Point(298, 219);
+            this.deleteListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.deleteListButton.FlatAppearance.BorderSize = 0;
+            this.deleteListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deleteListButton.Location = new System.Drawing.Point(272, 262);
             this.deleteListButton.Name = "deleteListButton";
-            this.deleteListButton.Size = new System.Drawing.Size(75, 23);
+            this.deleteListButton.Size = new System.Drawing.Size(116, 35);
             this.deleteListButton.TabIndex = 4;
             this.deleteListButton.Text = "Удалить";
-            this.deleteListButton.UseVisualStyleBackColor = true;
+            this.deleteListButton.UseVisualStyleBackColor = false;
             this.deleteListButton.Click += new System.EventHandler(this.DeleteListButton_Click);
             // 
             // createListButton
             // 
-            this.createListButton.Location = new System.Drawing.Point(298, 161);
+            this.createListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.createListButton.FlatAppearance.BorderSize = 0;
+            this.createListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.createListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.createListButton.Location = new System.Drawing.Point(272, 180);
             this.createListButton.Name = "createListButton";
-            this.createListButton.Size = new System.Drawing.Size(75, 23);
+            this.createListButton.Size = new System.Drawing.Size(116, 35);
             this.createListButton.TabIndex = 3;
-            this.createListButton.Text = "Создать список";
-            this.createListButton.UseVisualStyleBackColor = true;
+            this.createListButton.Text = "Создать";
+            this.createListButton.UseVisualStyleBackColor = false;
             this.createListButton.Click += new System.EventHandler(this.CreateListButton_Click);
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(298, 132);
+            this.startButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.startButton.FlatAppearance.BorderSize = 0;
+            this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.startButton.Location = new System.Drawing.Point(272, 139);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(75, 23);
+            this.startButton.Size = new System.Drawing.Size(116, 35);
             this.startButton.TabIndex = 2;
-            this.startButton.Text = "На4ать";
-            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Text = "Начать";
+            this.startButton.UseVisualStyleBackColor = false;
             this.startButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // wordsOfSelectedListBox
             // 
+            this.wordsOfSelectedListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.wordsOfSelectedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.wordsOfSelectedListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.wordsOfSelectedListBox.FormattingEnabled = true;
+            this.wordsOfSelectedListBox.ItemHeight = 18;
             this.wordsOfSelectedListBox.Location = new System.Drawing.Point(485, 6);
             this.wordsOfSelectedListBox.Name = "wordsOfSelectedListBox";
-            this.wordsOfSelectedListBox.Size = new System.Drawing.Size(170, 433);
+            this.wordsOfSelectedListBox.Size = new System.Drawing.Size(170, 450);
             this.wordsOfSelectedListBox.TabIndex = 1;
             this.wordsOfSelectedListBox.SelectedIndexChanged += new System.EventHandler(this.WordsOfSelectedListBox_SelectedIndexChanged);
             // 
             // listsBox
             // 
+            this.listsBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.listsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listsBox.FormattingEnabled = true;
+            this.listsBox.ItemHeight = 18;
             this.listsBox.Location = new System.Drawing.Point(8, 6);
             this.listsBox.Name = "listsBox";
-            this.listsBox.Size = new System.Drawing.Size(170, 433);
+            this.listsBox.Size = new System.Drawing.Size(170, 450);
             this.listsBox.TabIndex = 0;
             this.listsBox.SelectedIndexChanged += new System.EventHandler(this.ListsBox_SelectedIndexChanged);
             // 
             // createListTabPage
             // 
+            this.createListTabPage.Controls.Add(this.label4);
+            this.createListTabPage.Controls.Add(this.label3);
+            this.createListTabPage.Controls.Add(this.label2);
             this.createListTabPage.Controls.Add(this.cancelNewListButton);
             this.createListTabPage.Controls.Add(this.saveNewListButton);
             this.createListTabPage.Controls.Add(this.deleteWordInNewListButton);
@@ -195,85 +232,115 @@
             // 
             // cancelNewListButton
             // 
-            this.cancelNewListButton.Location = new System.Drawing.Point(429, 390);
+            this.cancelNewListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.cancelNewListButton.FlatAppearance.BorderSize = 0;
+            this.cancelNewListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelNewListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cancelNewListButton.Location = new System.Drawing.Point(410, 416);
             this.cancelNewListButton.Name = "cancelNewListButton";
-            this.cancelNewListButton.Size = new System.Drawing.Size(75, 23);
+            this.cancelNewListButton.Size = new System.Drawing.Size(104, 32);
             this.cancelNewListButton.TabIndex = 8;
-            this.cancelNewListButton.Text = "отмена";
-            this.cancelNewListButton.UseVisualStyleBackColor = true;
+            this.cancelNewListButton.Text = "Отмена";
+            this.cancelNewListButton.UseVisualStyleBackColor = false;
             this.cancelNewListButton.Click += new System.EventHandler(this.CancelNewListButton_Click);
             // 
             // saveNewListButton
             // 
-            this.saveNewListButton.Location = new System.Drawing.Point(396, 361);
+            this.saveNewListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.saveNewListButton.FlatAppearance.BorderSize = 0;
+            this.saveNewListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveNewListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveNewListButton.Location = new System.Drawing.Point(370, 370);
             this.saveNewListButton.Name = "saveNewListButton";
-            this.saveNewListButton.Size = new System.Drawing.Size(139, 23);
+            this.saveNewListButton.Size = new System.Drawing.Size(168, 32);
             this.saveNewListButton.TabIndex = 7;
             this.saveNewListButton.Text = "Сохранить и выйти";
-            this.saveNewListButton.UseVisualStyleBackColor = true;
+            this.saveNewListButton.UseVisualStyleBackColor = false;
             this.saveNewListButton.Click += new System.EventHandler(this.SaveNewListButton_Click);
             // 
             // deleteWordInNewListButton
             // 
-            this.deleteWordInNewListButton.Location = new System.Drawing.Point(429, 157);
+            this.deleteWordInNewListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.deleteWordInNewListButton.FlatAppearance.BorderSize = 0;
+            this.deleteWordInNewListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteWordInNewListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deleteWordInNewListButton.Location = new System.Drawing.Point(407, 166);
             this.deleteWordInNewListButton.Name = "deleteWordInNewListButton";
-            this.deleteWordInNewListButton.Size = new System.Drawing.Size(75, 23);
+            this.deleteWordInNewListButton.Size = new System.Drawing.Size(104, 32);
             this.deleteWordInNewListButton.TabIndex = 6;
             this.deleteWordInNewListButton.Text = "Удалить";
-            this.deleteWordInNewListButton.UseVisualStyleBackColor = true;
+            this.deleteWordInNewListButton.UseVisualStyleBackColor = false;
             this.deleteWordInNewListButton.Click += new System.EventHandler(this.DeleteWordInNewListButton_Click);
             // 
             // addWordInNewListButton
             // 
-            this.addWordInNewListButton.Location = new System.Drawing.Point(429, 128);
+            this.addWordInNewListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.addWordInNewListButton.FlatAppearance.BorderSize = 0;
+            this.addWordInNewListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addWordInNewListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.addWordInNewListButton.Location = new System.Drawing.Point(407, 128);
             this.addWordInNewListButton.Name = "addWordInNewListButton";
-            this.addWordInNewListButton.Size = new System.Drawing.Size(75, 23);
+            this.addWordInNewListButton.Size = new System.Drawing.Size(104, 32);
             this.addWordInNewListButton.TabIndex = 5;
             this.addWordInNewListButton.Text = "Добавить";
-            this.addWordInNewListButton.UseVisualStyleBackColor = true;
+            this.addWordInNewListButton.UseVisualStyleBackColor = false;
             this.addWordInNewListButton.Click += new System.EventHandler(this.AddWordInNewListButton_Click);
             // 
             // secondLanguageNewListWordTextBox
             // 
-            this.secondLanguageNewListWordTextBox.Location = new System.Drawing.Point(475, 75);
+            this.secondLanguageNewListWordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.secondLanguageNewListWordTextBox.Location = new System.Drawing.Point(482, 75);
             this.secondLanguageNewListWordTextBox.Name = "secondLanguageNewListWordTextBox";
-            this.secondLanguageNewListWordTextBox.Size = new System.Drawing.Size(166, 20);
+            this.secondLanguageNewListWordTextBox.Size = new System.Drawing.Size(173, 21);
             this.secondLanguageNewListWordTextBox.TabIndex = 4;
             // 
             // firstLanguageNewListWordTextBox
             // 
-            this.firstLanguageNewListWordTextBox.Location = new System.Drawing.Point(304, 75);
+            this.firstLanguageNewListWordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.firstLanguageNewListWordTextBox.Location = new System.Drawing.Point(272, 75);
             this.firstLanguageNewListWordTextBox.Name = "firstLanguageNewListWordTextBox";
-            this.firstLanguageNewListWordTextBox.Size = new System.Drawing.Size(145, 20);
+            this.firstLanguageNewListWordTextBox.Size = new System.Drawing.Size(177, 21);
             this.firstLanguageNewListWordTextBox.TabIndex = 3;
             // 
             // newListNameTextBox
             // 
-            this.newListNameTextBox.Location = new System.Drawing.Point(396, 21);
+            this.newListNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.newListNameTextBox.Location = new System.Drawing.Point(370, 25);
             this.newListNameTextBox.Name = "newListNameTextBox";
-            this.newListNameTextBox.Size = new System.Drawing.Size(152, 20);
+            this.newListNameTextBox.Size = new System.Drawing.Size(168, 21);
             this.newListNameTextBox.TabIndex = 2;
             // 
             // SecondLanguageNewListBox
             // 
+            this.SecondLanguageNewListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.SecondLanguageNewListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SecondLanguageNewListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SecondLanguageNewListBox.FormattingEnabled = true;
+            this.SecondLanguageNewListBox.ItemHeight = 16;
             this.SecondLanguageNewListBox.Location = new System.Drawing.Point(134, 8);
             this.SecondLanguageNewListBox.Name = "SecondLanguageNewListBox";
-            this.SecondLanguageNewListBox.Size = new System.Drawing.Size(120, 433);
+            this.SecondLanguageNewListBox.Size = new System.Drawing.Size(120, 448);
             this.SecondLanguageNewListBox.TabIndex = 1;
             this.SecondLanguageNewListBox.SelectedIndexChanged += new System.EventHandler(this.SecondLanguageNewListBox_SelectedIndexChanged);
             // 
             // FirstLanguageNewListBox
             // 
+            this.FirstLanguageNewListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.FirstLanguageNewListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FirstLanguageNewListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FirstLanguageNewListBox.FormattingEnabled = true;
+            this.FirstLanguageNewListBox.ItemHeight = 16;
             this.FirstLanguageNewListBox.Location = new System.Drawing.Point(8, 8);
             this.FirstLanguageNewListBox.Name = "FirstLanguageNewListBox";
-            this.FirstLanguageNewListBox.Size = new System.Drawing.Size(120, 433);
+            this.FirstLanguageNewListBox.Size = new System.Drawing.Size(120, 448);
             this.FirstLanguageNewListBox.TabIndex = 0;
             this.FirstLanguageNewListBox.SelectedIndexChanged += new System.EventHandler(this.FirstLanguageNewListBox_SelectedIndexChanged);
             // 
             // changeListTabPage
             // 
+            this.changeListTabPage.Controls.Add(this.label5);
+            this.changeListTabPage.Controls.Add(this.label6);
+            this.changeListTabPage.Controls.Add(this.label7);
             this.changeListTabPage.Controls.Add(this.cancelChangeListButton);
             this.changeListTabPage.Controls.Add(this.saveChangedListButton);
             this.changeListTabPage.Controls.Add(this.deleteWordInChangedListButton);
@@ -283,6 +350,7 @@
             this.changeListTabPage.Controls.Add(this.changeListNameTextBox);
             this.changeListTabPage.Controls.Add(this.SecondLanguageChangeListBox);
             this.changeListTabPage.Controls.Add(this.FirstLanguageChangeListBox);
+            this.changeListTabPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.changeListTabPage.Location = new System.Drawing.Point(4, 22);
             this.changeListTabPage.Name = "changeListTabPage";
             this.changeListTabPage.Padding = new System.Windows.Forms.Padding(3);
@@ -293,80 +361,107 @@
             // 
             // cancelChangeListButton
             // 
-            this.cancelChangeListButton.Location = new System.Drawing.Point(429, 390);
+            this.cancelChangeListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.cancelChangeListButton.FlatAppearance.BorderSize = 0;
+            this.cancelChangeListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelChangeListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cancelChangeListButton.Location = new System.Drawing.Point(410, 416);
             this.cancelChangeListButton.Name = "cancelChangeListButton";
-            this.cancelChangeListButton.Size = new System.Drawing.Size(75, 23);
+            this.cancelChangeListButton.Size = new System.Drawing.Size(104, 32);
             this.cancelChangeListButton.TabIndex = 17;
-            this.cancelChangeListButton.Text = "отмена";
-            this.cancelChangeListButton.UseVisualStyleBackColor = true;
+            this.cancelChangeListButton.Text = "Отмена";
+            this.cancelChangeListButton.UseVisualStyleBackColor = false;
             this.cancelChangeListButton.Click += new System.EventHandler(this.CancelChangeListButton_Click);
             // 
             // saveChangedListButton
             // 
-            this.saveChangedListButton.Location = new System.Drawing.Point(429, 361);
+            this.saveChangedListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.saveChangedListButton.FlatAppearance.BorderSize = 0;
+            this.saveChangedListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveChangedListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveChangedListButton.Location = new System.Drawing.Point(370, 370);
             this.saveChangedListButton.Name = "saveChangedListButton";
-            this.saveChangedListButton.Size = new System.Drawing.Size(75, 23);
+            this.saveChangedListButton.Size = new System.Drawing.Size(168, 32);
             this.saveChangedListButton.TabIndex = 16;
-            this.saveChangedListButton.Text = "Сохранить";
-            this.saveChangedListButton.UseVisualStyleBackColor = true;
+            this.saveChangedListButton.Text = "Сохранить и выйти";
+            this.saveChangedListButton.UseVisualStyleBackColor = false;
             this.saveChangedListButton.Click += new System.EventHandler(this.SaveChangedListButton_Click);
             // 
             // deleteWordInChangedListButton
             // 
-            this.deleteWordInChangedListButton.Location = new System.Drawing.Point(429, 157);
+            this.deleteWordInChangedListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.deleteWordInChangedListButton.FlatAppearance.BorderSize = 0;
+            this.deleteWordInChangedListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteWordInChangedListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deleteWordInChangedListButton.Location = new System.Drawing.Point(407, 166);
             this.deleteWordInChangedListButton.Name = "deleteWordInChangedListButton";
-            this.deleteWordInChangedListButton.Size = new System.Drawing.Size(75, 23);
+            this.deleteWordInChangedListButton.Size = new System.Drawing.Size(104, 32);
             this.deleteWordInChangedListButton.TabIndex = 15;
             this.deleteWordInChangedListButton.Text = "Удалить";
-            this.deleteWordInChangedListButton.UseVisualStyleBackColor = true;
+            this.deleteWordInChangedListButton.UseVisualStyleBackColor = false;
             this.deleteWordInChangedListButton.Click += new System.EventHandler(this.DeleteWordInChangedListButton_Click);
             // 
             // addWordInChangedListButton
             // 
-            this.addWordInChangedListButton.Location = new System.Drawing.Point(429, 128);
+            this.addWordInChangedListButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.addWordInChangedListButton.FlatAppearance.BorderSize = 0;
+            this.addWordInChangedListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addWordInChangedListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.addWordInChangedListButton.Location = new System.Drawing.Point(407, 128);
             this.addWordInChangedListButton.Name = "addWordInChangedListButton";
-            this.addWordInChangedListButton.Size = new System.Drawing.Size(75, 23);
+            this.addWordInChangedListButton.Size = new System.Drawing.Size(104, 32);
             this.addWordInChangedListButton.TabIndex = 14;
             this.addWordInChangedListButton.Text = "Добавить";
-            this.addWordInChangedListButton.UseVisualStyleBackColor = true;
+            this.addWordInChangedListButton.UseVisualStyleBackColor = false;
             this.addWordInChangedListButton.Click += new System.EventHandler(this.AddWordInChangedListButton_Click);
             // 
             // secondLanguageChangeListWordTextBox
             // 
-            this.secondLanguageChangeListWordTextBox.Location = new System.Drawing.Point(475, 75);
+            this.secondLanguageChangeListWordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.secondLanguageChangeListWordTextBox.Location = new System.Drawing.Point(482, 75);
             this.secondLanguageChangeListWordTextBox.Name = "secondLanguageChangeListWordTextBox";
-            this.secondLanguageChangeListWordTextBox.Size = new System.Drawing.Size(166, 20);
+            this.secondLanguageChangeListWordTextBox.Size = new System.Drawing.Size(173, 21);
             this.secondLanguageChangeListWordTextBox.TabIndex = 13;
             // 
             // firstLanguageChangeListWordTextBox
             // 
-            this.firstLanguageChangeListWordTextBox.Location = new System.Drawing.Point(304, 75);
+            this.firstLanguageChangeListWordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.firstLanguageChangeListWordTextBox.Location = new System.Drawing.Point(272, 75);
             this.firstLanguageChangeListWordTextBox.Name = "firstLanguageChangeListWordTextBox";
-            this.firstLanguageChangeListWordTextBox.Size = new System.Drawing.Size(145, 20);
+            this.firstLanguageChangeListWordTextBox.Size = new System.Drawing.Size(177, 21);
             this.firstLanguageChangeListWordTextBox.TabIndex = 12;
             // 
             // changeListNameTextBox
             // 
-            this.changeListNameTextBox.Location = new System.Drawing.Point(396, 21);
+            this.changeListNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.changeListNameTextBox.Location = new System.Drawing.Point(370, 25);
             this.changeListNameTextBox.Name = "changeListNameTextBox";
-            this.changeListNameTextBox.Size = new System.Drawing.Size(152, 20);
+            this.changeListNameTextBox.Size = new System.Drawing.Size(168, 21);
             this.changeListNameTextBox.TabIndex = 11;
             // 
             // SecondLanguageChangeListBox
             // 
+            this.SecondLanguageChangeListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.SecondLanguageChangeListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SecondLanguageChangeListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SecondLanguageChangeListBox.FormattingEnabled = true;
+            this.SecondLanguageChangeListBox.ItemHeight = 16;
             this.SecondLanguageChangeListBox.Location = new System.Drawing.Point(134, 8);
             this.SecondLanguageChangeListBox.Name = "SecondLanguageChangeListBox";
-            this.SecondLanguageChangeListBox.Size = new System.Drawing.Size(120, 433);
+            this.SecondLanguageChangeListBox.Size = new System.Drawing.Size(120, 448);
             this.SecondLanguageChangeListBox.TabIndex = 10;
             this.SecondLanguageChangeListBox.SelectedIndexChanged += new System.EventHandler(this.SecondLanguageChangeListBox_SelectedIndexChanged);
             // 
             // FirstLanguageChangeListBox
             // 
+            this.FirstLanguageChangeListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.FirstLanguageChangeListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FirstLanguageChangeListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FirstLanguageChangeListBox.FormattingEnabled = true;
+            this.FirstLanguageChangeListBox.ItemHeight = 16;
             this.FirstLanguageChangeListBox.Location = new System.Drawing.Point(8, 8);
             this.FirstLanguageChangeListBox.Name = "FirstLanguageChangeListBox";
-            this.FirstLanguageChangeListBox.Size = new System.Drawing.Size(120, 433);
+            this.FirstLanguageChangeListBox.Size = new System.Drawing.Size(120, 448);
             this.FirstLanguageChangeListBox.TabIndex = 9;
             this.FirstLanguageChangeListBox.SelectedIndexChanged += new System.EventHandler(this.FirstLanguageChangeListBox_SelectedIndexChanged);
             // 
@@ -387,17 +482,21 @@
             // 
             // jumpOnNextWordButton
             // 
-            this.jumpOnNextWordButton.Location = new System.Drawing.Point(272, 222);
+            this.jumpOnNextWordButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.jumpOnNextWordButton.FlatAppearance.BorderSize = 0;
+            this.jumpOnNextWordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jumpOnNextWordButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.jumpOnNextWordButton.Location = new System.Drawing.Point(278, 242);
             this.jumpOnNextWordButton.Name = "jumpOnNextWordButton";
-            this.jumpOnNextWordButton.Size = new System.Drawing.Size(75, 23);
+            this.jumpOnNextWordButton.Size = new System.Drawing.Size(104, 32);
             this.jumpOnNextWordButton.TabIndex = 4;
-            this.jumpOnNextWordButton.Text = "button1";
-            this.jumpOnNextWordButton.UseVisualStyleBackColor = true;
+            this.jumpOnNextWordButton.Text = "Проверить";
+            this.jumpOnNextWordButton.UseVisualStyleBackColor = false;
             this.jumpOnNextWordButton.Click += new System.EventHandler(this.JumpOnNextWordButton_Click);
             // 
             // translateOfQuestWordTextBox
             // 
-            this.translateOfQuestWordTextBox.Location = new System.Drawing.Point(219, 196);
+            this.translateOfQuestWordTextBox.Location = new System.Drawing.Point(240, 211);
             this.translateOfQuestWordTextBox.Name = "translateOfQuestWordTextBox";
             this.translateOfQuestWordTextBox.Size = new System.Drawing.Size(181, 20);
             this.translateOfQuestWordTextBox.TabIndex = 3;
@@ -405,29 +504,34 @@
             // questWordLabel
             // 
             this.questWordLabel.AutoSize = true;
-            this.questWordLabel.Location = new System.Drawing.Point(288, 180);
+            this.questWordLabel.Font = new System.Drawing.Font("Gill Sans MT Ext Condensed Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.questWordLabel.Location = new System.Drawing.Point(239, 92);
             this.questWordLabel.Name = "questWordLabel";
-            this.questWordLabel.Size = new System.Drawing.Size(38, 13);
+            this.questWordLabel.Size = new System.Drawing.Size(234, 80);
             this.questWordLabel.TabIndex = 2;
             this.questWordLabel.Text = "Слово";
             // 
             // countOfWordLeftLabel
             // 
             this.countOfWordLeftLabel.AutoSize = true;
+            this.countOfWordLeftLabel.Font = new System.Drawing.Font("Gill Sans MT Ext Condensed Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countOfWordLeftLabel.Location = new System.Drawing.Point(8, 18);
             this.countOfWordLeftLabel.Name = "countOfWordLeftLabel";
-            this.countOfWordLeftLabel.Size = new System.Drawing.Size(143, 13);
+            this.countOfWordLeftLabel.Size = new System.Drawing.Size(485, 44);
             this.countOfWordLeftLabel.TabIndex = 1;
             this.countOfWordLeftLabel.Text = "Слов всего/слов осталось";
             // 
             // goBackToMenuButton
             // 
+            this.goBackToMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.goBackToMenuButton.FlatAppearance.BorderSize = 0;
+            this.goBackToMenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.goBackToMenuButton.Location = new System.Drawing.Point(8, 425);
             this.goBackToMenuButton.Name = "goBackToMenuButton";
             this.goBackToMenuButton.Size = new System.Drawing.Size(75, 23);
             this.goBackToMenuButton.TabIndex = 0;
             this.goBackToMenuButton.Text = "В меню";
-            this.goBackToMenuButton.UseVisualStyleBackColor = true;
+            this.goBackToMenuButton.UseVisualStyleBackColor = false;
             this.goBackToMenuButton.Click += new System.EventHandler(this.GoBackToMenuButton_Click);
             // 
             // collectionOfInformationTabPage
@@ -439,38 +543,46 @@
             this.collectionOfInformationTabPage.Location = new System.Drawing.Point(4, 22);
             this.collectionOfInformationTabPage.Name = "collectionOfInformationTabPage";
             this.collectionOfInformationTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.collectionOfInformationTabPage.Size = new System.Drawing.Size(661, 454);
+            this.collectionOfInformationTabPage.Size = new System.Drawing.Size(661, 479);
             this.collectionOfInformationTabPage.TabIndex = 4;
             this.collectionOfInformationTabPage.Text = "Collection of information";
             this.collectionOfInformationTabPage.UseVisualStyleBackColor = true;
             // 
             // restartButton
             // 
-            this.restartButton.Location = new System.Drawing.Point(313, 303);
+            this.restartButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.restartButton.FlatAppearance.BorderSize = 0;
+            this.restartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.restartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.restartButton.Location = new System.Drawing.Point(278, 308);
             this.restartButton.Name = "restartButton";
-            this.restartButton.Size = new System.Drawing.Size(75, 23);
+            this.restartButton.Size = new System.Drawing.Size(104, 32);
             this.restartButton.TabIndex = 3;
-            this.restartButton.Text = "с на4ала";
-            this.restartButton.UseVisualStyleBackColor = true;
+            this.restartButton.Text = "C начала";
+            this.restartButton.UseVisualStyleBackColor = false;
             this.restartButton.Click += new System.EventHandler(this.RestartButton_Click);
             // 
             // backToMenuButton
             // 
-            this.backToMenuButton.Location = new System.Drawing.Point(313, 265);
+            this.backToMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.backToMenuButton.FlatAppearance.BorderSize = 0;
+            this.backToMenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backToMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.backToMenuButton.Location = new System.Drawing.Point(278, 270);
             this.backToMenuButton.Name = "backToMenuButton";
-            this.backToMenuButton.Size = new System.Drawing.Size(75, 23);
+            this.backToMenuButton.Size = new System.Drawing.Size(104, 32);
             this.backToMenuButton.TabIndex = 2;
             this.backToMenuButton.Text = "В меню";
-            this.backToMenuButton.UseVisualStyleBackColor = true;
+            this.backToMenuButton.UseVisualStyleBackColor = false;
             this.backToMenuButton.Click += new System.EventHandler(this.Button1_Click);
             // 
             // accuracyLabel
             // 
             this.accuracyLabel.AutoSize = true;
-            this.accuracyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accuracyLabel.Location = new System.Drawing.Point(100, 173);
+            this.accuracyLabel.Font = new System.Drawing.Font("Arial Narrow", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.accuracyLabel.Location = new System.Drawing.Point(233, 171);
             this.accuracyLabel.Name = "accuracyLabel";
-            this.accuracyLabel.Size = new System.Drawing.Size(480, 73);
+            this.accuracyLabel.Size = new System.Drawing.Size(495, 94);
             this.accuracyLabel.TabIndex = 1;
             this.accuracyLabel.Text = "В процентах %";
             // 
@@ -478,11 +590,71 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(290, 125);
+            this.label1.Location = new System.Drawing.Point(217, 125);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 37);
+            this.label1.Size = new System.Drawing.Size(227, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "То4ность";
+            this.label1.Text = "Ваша точность";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(269, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(180, 16);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Слово для первого списка";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(479, 56);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 16);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Слово для второго списка";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(392, 3);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 16);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Название списка";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(392, 3);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(122, 16);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Название списка";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(479, 56);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(179, 16);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Слово для второго списка";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(269, 56);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(180, 16);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Слово для первого списка";
             // 
             // Form1
             // 
@@ -490,6 +662,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 482);
             this.Controls.Add(this.tabControl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
@@ -550,6 +723,12 @@
         private System.Windows.Forms.Label accuracyLabel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button restartButton;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
